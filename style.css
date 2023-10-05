@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(white, rgb(28, 112, 185));
+    padding: 10vh;
+    position: relative;
+    
+}
+.container {
+   
+    height: 104vh;
+    margin: auto;
+    width: 70vh;
+    border-radius: 30px;
+    background: linear-gradient( rgb(28, 112, 185), white)
+    
+}
+.perfil img{
+   
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background: linear-gradient(white, rgb(28, 112, 185));
+    display: flex;
+    margin:  auto;
+    border: 1px solid linear-gradient(rgb(28, ,112, 185), white);
+    
+}
+.perfil{
+    padding-top: 30px;
+    text-align: center;
+    gap: 1.8rem;
+}
+.perfil p {
+    margin: 15px;
+    color:  rgb(28, 112, 185);
+}
+.content {
+    
+    width: 40vh;
+    margin:  auto;
+    text-align: center;
+      
+    
+}
+.social {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    gap: 16px;
+    position: relative;
+    }
+
+ul li{
+    list-style: none;
+    color:  rgb(28, 112, 185);
+    border: 1px solid  rgb(28, 112, 185);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 15px;    
+}
+ul {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+  }  
+  ul li:hover{
+    
+    border:aliceblue 1px solid;
+  }
+footer {
+    margin: 1.8rem auto;
+    text-align: center;
+    height: 10px;
+    color: aliceblue;
+}
